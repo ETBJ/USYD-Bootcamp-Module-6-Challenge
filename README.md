@@ -9,3 +9,6 @@ Additionally, the application maintains a record of recent searches, which are s
 This weather application empowers users to access both the current weather forecast for their city and a 5-day outlook. It is a mobile-responsive web application that retrieves weather data to assist users in planning their week effectively.
 
 Users benefit from the ability to review their previous search results. They can conveniently click on recent items to quickly revisit their search history. Additionally, there's a "clear" button available for users to wipe their search history clean.
+
+## Link
+https://etbj.github.io/USYD-Bootcamp-Module-6-Challenge/Weather-Dashboard-main/index.html
