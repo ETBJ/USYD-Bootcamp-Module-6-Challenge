@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <aside class="col-12 col-md-3">
+                <h3>Search for a city:</h3>
+                <input type="text" placeholder="City Name" id="citySearch"><br>
+                <button id="searchBtn" class="btn btn-primary">Search</button>
+                <hr>
+                <h5>Previous Searches:</h5>
+                <section id="searchHistoryList">
+                </section>
+            </aside>
+            <main class="col-12 col-md-9">
+                <section id="currentSection">
+                    <h4>Current Weather for <span id="cityName"></span>:</h4>
+                    <img id="condImg" src="" alt="">
+                    <p>Temperature: <span id="currentTemp"></span></p>
+                    <p>Wind speed: <span id="currentWind"></span></p>
+                    <p>Humidity: <span id="currentHumidity"></span></p>
+                </section>
+                <hr>
+                <section id='forecastSection'>
+                    <h4>5-Day Forecast:</h4>
+                    <div class="row justify-content-center" id="forecastRow">
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/javascript.js"></script>
+    </footer>
+</body>
+</html>

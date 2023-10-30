@@ -1,0 +1,64 @@
+header {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+
+aside {
+    padding-top: 10px;
+}
+
+main {
+    padding-top: 10px;
+}
+
+#citySearch {
+    width: 100%;
+}
+
+#searchBtn {
+    margin-top: 5px;
+    width: 100%;
+}
+
+#currentSection {
+    border-style: solid;
+    border: 5px;
+    padding: 5px 10px;
+    visibility: hidden;
+}
+
+#searchHistoryList {
+    list-style: none;
+}
+
+.historyItem {
+    width: 100%;
+    margin: 2px 0;
+}
+
+button {
+    border-radius: 5px;
+}
+
+#currentWeatherList {
+    list-style-type: none;
+}
+
+.forecastCard {
+    padding-top: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 0 2px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+#forecastRow {
+    margin-top: 15px
+}
+
+#forecastSection {
+    visibility: hidden;
+}
